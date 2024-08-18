@@ -59,7 +59,7 @@ export function crop(file, { quality = 0.95, aspectRatio = "1:1" } = {}) {
       );
     };
 
-    img.src = URL.createObjectURL(file);
+    img.Objects = file; 
   });
 }
 
